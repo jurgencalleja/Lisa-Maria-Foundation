@@ -18,7 +18,7 @@ title: The Lisa Maria Foundation
 subtitle: "Safeguarding Children and the Young"
 url: "https:lisamaria-foundation.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
