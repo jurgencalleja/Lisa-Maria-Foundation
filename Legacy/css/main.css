@@ -1,0 +1,134 @@
+h2,h3,h4 {
+	color: #ed5752;
+}
+header {
+	margin-bottom: 10px;
+}
+/*===========================*/
+
+/*===========================*/
+.main-banner {
+	background: #3b3b3a url('../img/pattern.jpg') 50% 0 no-repeat;
+	min-height: 423px;
+	/*line-height: 423px;*/
+	/*text-align: center;*/
+}
+.main-banner .title {
+	padding-top: 110px;
+	/*display: inline-block;
+	vertical-align: middle;*/
+}
+.main-banner .title img {
+	margin: 0 auto;
+}
+/*===========================*/
+
+/*===========================*/
+.articles {
+	margin-top: 20px;
+}
+.articles .row-title {
+	margin-bottom: 30px;
+}
+.articles .list-media {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.articles .media {
+	margin-top: 30px;
+	position: relative;
+}
+.articles .media .image {
+	float: left;
+	margin-right: 20px;
+}
+.articles .media .media-body {
+	padding: 10px 0;
+}
+.articles .media .media-body .media-text-wrap {
+	position: absolute;
+	bottom: 0;
+}
+.articles .media .media-body .media-text-wrap .media-heading {
+	margin-bottom: 15px;
+}
+.articles .media .media-body .media-text-wrap p {
+	margin-bottom: 15px;
+}
+.articles .media .media-body .media-text-wrap p:last-child {
+	margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+	.articles .media .image {
+		float: none;
+	}
+	.articles .media .media-body .media-text-wrap {
+		position: relative;
+	}
+}
+/*===========================*/
+
+/*===========================*/
+.support {
+	margin-top: 25px;
+}
+/*===========================*/
+
+/*===========================*/
+footer {
+	background-color: #dddddd;
+	text-align: center;
+	padding: 20px 0 25px;
+	margin-top: 35px;
+}
+footer .adr a {
+	color: #000;
+}
+footer .adr span {
+	display: block;
+}
+footer .adr .email {
+	margin-bottom: 5px;
+}
+footer .adr .reg-nr {
+	margin-top: 10px;
+}
+.alt { display: none; }
+
+#footer_social{
+	float:right;
+	margin-right: 20%;
+}
+
+
+.titlebar {
+		
+	border-bottom:1px solid #ed5752;
+	font-weight: bold;
+	font-size: 130%;
+	color: #ed5752;
+}
+
+.newsheadings {
+	font-weight: bold;
+	
+}
+
+
+
+.titlebarlarge {
+	
+	border-bottom:1px solid #ed5752;
+	font-weight: bold;
+	font-size: 160%;
+	color: #ed5752;
+}
+
+.sponsors {
+	width: 100px
+	
+}
+
+
+
+
