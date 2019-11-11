@@ -8,7 +8,7 @@
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(//fonts.googleapis.com/css?family=Volkhov:400);
 /* var text-decoration */
 /*--
 	Common Css
@@ -58,7 +58,6 @@ a:active {
 }
 .section-title p {
   font-family: 'Volkhov', serif;
-  font-style: italic;
   color: #666;
 }
 /*--
@@ -497,7 +496,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 15px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
-  font-style: italic;
   font-size: 13px;
   color: #655E7A;
 }
