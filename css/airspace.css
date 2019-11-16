@@ -802,3 +802,44 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+/*
+import from legacy css
+*/
+
+.articles .row-title {
+	margin-bottom: 30px;
+}
+
+.articles .media {
+	margin-top: 30px;
+	position: relative;
+}
+.articles .media .image {
+	float: left;
+	margin-right: 20px;
+}
+.articles .media .media-body {
+	padding: 10px 0;
+}
+.articles .media .media-body .media-text-wrap {
+	position: absolute;
+	bottom: 0;
+}
+.articles .media .media-body .media-text-wrap .media-heading {
+	margin-bottom: 15px;
+}
+.articles .media .media-body .media-text-wrap p {
+	margin-bottom: 15px;
+}
+.articles .media .media-body .media-text-wrap p:last-child {
+	margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+	.articles .media .image {
+		float: none;
+	}
+	.articles .media .media-body .media-text-wrap {
+		position: relative;
+	}
+}
