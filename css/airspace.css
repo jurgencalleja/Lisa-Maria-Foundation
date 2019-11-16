@@ -183,6 +183,45 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
+#service .row-title {
+	margin-bottom: 30px;
+}
+
+#service .media {
+	margin-top: 30px;
+	position: relative;
+}
+#service .media .image {
+	float: left;
+	margin-right: 20px;
+}
+#service .media .media-body {
+	padding: 10px 0;
+}
+#service .media .media-body .media-text-wrap {
+	position: absolute;
+	bottom: 0;
+}
+#service .media .media-body .media-text-wrap .media-heading {
+	margin-bottom: 15px;
+}
+#service .media .media-body .media-text-wrap p {
+	margin-bottom: 15px;
+}
+#service .media .media-body .media-text-wrap p:last-child {
+	margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+	#service .media .image {
+		float: none;
+	}
+	#service .media .media-body .media-text-wrap {
+		position: relative;
+	}
+}
+
+
 /*--
 	call-to-action Start
 --*/
@@ -807,39 +846,39 @@ footer .footer-manu ul li a:hover {
 import from legacy css
 */
 
-.articles .row-title {
+#service .row-title {
 	margin-bottom: 30px;
 }
 
-.articles .media {
+#service .media {
 	margin-top: 30px;
 	position: relative;
 }
-.articles .media .image {
+#service .media .image {
 	float: left;
 	margin-right: 20px;
 }
-.articles .media .media-body {
+#service .media .media-body {
 	padding: 10px 0;
 }
-.articles .media .media-body .media-text-wrap {
+#service .media .media-body .media-text-wrap {
 	position: absolute;
 	bottom: 0;
 }
-.articles .media .media-body .media-text-wrap .media-heading {
+#service .media .media-body .media-text-wrap .media-heading {
 	margin-bottom: 15px;
 }
-.articles .media .media-body .media-text-wrap p {
+#service .media .media-body .media-text-wrap p {
 	margin-bottom: 15px;
 }
-.articles .media .media-body .media-text-wrap p:last-child {
+#service .media .media-body .media-text-wrap p:last-child {
 	margin-bottom: 0px;
 }
 @media (max-width: 991px) {
-	.articles .media .image {
+	#service .media .image {
 		float: none;
 	}
-	.articles .media .media-body .media-text-wrap {
+	#service .media .media-body .media-text-wrap {
 		position: relative;
 	}
 }
