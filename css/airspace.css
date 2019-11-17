@@ -8,7 +8,7 @@
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(//fonts.googleapis.com/css?family=Volkhov:400);
 /* var text-decoration */
 /*--
 	Common Css
@@ -58,7 +58,6 @@ a:active {
 }
 .section-title p {
   font-family: 'Volkhov', serif;
-  font-style: italic;
   color: #666;
 }
 /*--
@@ -80,7 +79,7 @@ header .navbar-default {
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
@@ -163,15 +162,14 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
-  text-align: center;
+  text-align: left;
   padding: 90px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
 }
 #service .service-item i {
-  font-size: 60px;
-  color: #4A4656;
+	position: relative;
 }
 #service .service-item h4 {
   padding-top: 20px;
@@ -185,6 +183,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
+
 /*--
 	call-to-action Start
 --*/
@@ -497,7 +497,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 15px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
-  font-style: italic;
   font-size: 13px;
   color: #655E7A;
 }
@@ -804,4 +803,145 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+/*
+board section
+*/
+
+#board{
+  padding: 5px;
+}
+#board .person{
+  padding-bottom: 30px;
+}
+
+#board .image{
+  float: left;
+  padding-right: 30px;
+  width: 174px;
+}
+#board .about{
+  position: relative;
+  overflow-wrap: normal;
+  display: grid;
+}
+
+#board .clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*
+new footer
+*/
+#footer2 {
+  text-align: left;
+}
+
+#footer2 .full {
+  width: 100%;    
+}
+#footer2 .gap {
+height: 10px;
+width: 100%;
+clear: both;
+display: block;
+}
+
+#footer2  .footer {
+background: #002147;
+height: auto;
+padding-bottom: 10px;
+position: relative;
+width: 100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+}
+#footer2  .footer p {
+margin: 0;
+}
+
+#footer2 .footer img {
+max-width: 100%;
+}
+#footer2 .footer h3 {
+color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 0px;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+#footer2 .footer h4 {
+color: white;
+font-size: 2em;
+font-weight: 600;
+line-height: 38px;
+padding: 10px 0 10px;
+font-family: cursive;
+font-weight: lighter
+}
+
+#footer2 .footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 0px;
+color: #7F8C8D;
+padding: 0 0 8px 0;
+}
+
+#footer2 .email{
+border-bottom: 3px solid #fff;
+}
+#footer2 .footer ul li a {
+padding: 0 0 12px 0;
+display: block;
+}
+#footer2 .footer a {
+color: white;
+font-weight: lighter;
+}
+
+#footer2 .footer p {
+color: white;
+font-weight: lighter;
+font-size: 
+}
+
+#footer2 .footer a:hover {
+text-decoration:none;
+font-weight: bold;
+}
+#footer2 .supportLi h4 {
+font-size: 20px;
+font-weight: lighter;
+line-height: normal;
+margin-bottom: 0 !important;
+padding-bottom: 0;
+}
+
+#footer2 .bg-gray {
+background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+box-shadow: 0 1px 0 #B4B3B3;
+}
+
+#footer2 .footer a {
+color: #78828D
+}
+
+#footer2 .footer-bottom {
+margin-top: 2em;
+border-top: 1px solid #DDDDDD;
+padding-top: 20px;
+padding-bottom: 2px;
+}
+#footer2 .footer-bottom p.pull-left {
+padding-top: 6px;
+font-size: 0.75em
 }
