@@ -810,7 +810,6 @@ import from legacy css
 */
 
 #board{
-  border: 3px solid #4CAF50;
   padding: 5px;
 }
 #board .person{
@@ -824,6 +823,8 @@ import from legacy css
 }
 #board .about{
   position: relative;
+  overflow-wrap: normal;
+  display: grid;
 }
 
 #board .clearfix::after{
