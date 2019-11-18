@@ -11,6 +11,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  height: 100%;
 }
 h1,
 h2,
@@ -901,7 +902,6 @@ font-weight: lighter;
 #footer2 .footer2 p {
 color: white;
 font-weight: lighter;
-font-size: 
 }
 
 #footer2 .footer2 a:hover {
